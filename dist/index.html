@@ -16,6 +16,7 @@
             Bugsnag.start({ apiKey: '0fb1244e376aeb165877e04a8fedb15f' })
             BugsnagPerformance.start({ apiKey: '0fb1244e376aeb165877e04a8fedb15f' })
         </script>
+        Bugsnag.notify(new Error('Test error'))
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -689,6 +690,5 @@
         <script src="assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
-        Bugsnag.notify(new Error('Test error'))
     </body>
 </html>
