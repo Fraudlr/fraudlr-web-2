@@ -39,7 +39,8 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.2.3",
+        "chart.js": "^4.4.8"
     },
     "devDependencies": {
         "@eslint/js": "^9.22.0",

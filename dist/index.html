@@ -18,7 +18,11 @@
             window.onload = function () {
         Bugsnag.notify(new Error('Test error'));
         </script>
-        
+        <script src="path/to/chartjs/dist/chart.umd.js"></script>
+<script>
+    const myChart = new Chart(ctx, {...});
+</script>
+
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
