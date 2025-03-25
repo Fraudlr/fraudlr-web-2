@@ -77,6 +77,13 @@
   --bs-link-hover-color: #0a58ca;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+  /*FRAUD COLORS*/
+  --bs-fraud-red: #fd4d53;
+  --bs-fraud-black: #0F0F0F;
+  --bs-fraud-darkgrey: #545454;
+  --bs-fraud-lightGrey: #D9D9D9;
+  --bs-fraud-offWhite: #f1efe7;
+  --bs-fraud-white: #ffffff;
 }
 
 *,
@@ -11240,4 +11247,20 @@ body {
   width: 20px !important;
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
+}
+
+/* .divPad {
+  padding: 20px 0 20px 0;
+} */
+
+.topMarg {
+  margin-top: 60px;
+}
+
+.leftPad {
+  padding-left: 20px;
+}
+
+.shortCutDivs {
+  background-color:  var(--bs-fraud-darkgrey);
 }
