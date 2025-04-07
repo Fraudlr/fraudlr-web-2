@@ -531,16 +531,16 @@
                                                         ],
                                                         backgroundColor: [
                                                             "rgba(54, 162, 235, 0.5)",
-                                                            "#f9e9eb",                                                           
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                            "#f9e9eb",   
-                                                        ],                                                   
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                            "#f9e9eb",
+                                                        ],
                                                     },
                                                 ],
                                             },
@@ -679,105 +679,82 @@
                         </div>
 
                         <div class="card mb-4 topMarg">
-                            <h3 class="mt-2 leftPad">Detector Journal</h3>
+                            <h3 class="mt-2 leftPad">Case</h3>
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                                Journal
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
+                                <table class="table">
                                     <thead>
                                         <tr>
-                                            <th>Digit</th>
-                                            <th>Expected %</th>
-                                            <th>Year 1 Actual Count</th>
-                                            <th>Year 1 Actual %</th>
-                                            <th>Year 2 Actual Count</th>
-                                            <th>Year 2 Actual %</th>
+                                            <th scope="col"></th>
+                                            <th scope="col">Account Name</th>
+                                            <th scope="col">Year 1 Amount</th>
+                                            <th scope="col">Year 2 Amount</th>
+                                            <th scope="col">
+                                                First Digit (year 1)
+                                            </th>
+                                            <th scope="col">
+                                                First Digit (year 2)
+                                            </th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Digit</th>
-                                            <th>Expected %</th>
-                                            <th>Year 1 Actual Count</th>
-                                            <th>Year 1 Actual %</th>
-                                            <th>Year 2 Actual Count</th>
-                                            <th>Year 2 Actual %</th>
-                                        </tr>
-                                    </tfoot>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
-                                            <td>30.1</td>
-                                            <td>54</td>
-                                            <td>0.08955223881</td>
-                                            <td>62</td>
-                                            <td>0.1028192371</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>17.6</td>
-                                            <td>63</td>
-                                            <td>0.1194029851</td>
-                                            <td>80</td>
-                                            <td>0.1326699834</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>12.5</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>9.7</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Cash & Cash Equivalentsk</td>
+                                            <td>50177574</td>
+                                            <td>60051480</td>
                                             <td>5</td>
-                                            <td>7.9</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
                                             <td>6</td>
-                                            <td>6.7</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
                                         </tr>
                                         <tr>
-                                            <td>7</td>
-                                            <td>5.8</td>
+                                            <th scope="row">2</th>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>8</td>
-                                            <td>5.1</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
+                                            <td>13687899</td>
+                                            <td>95095713</td>
+                                            <td>1</td>
                                             <td>9</td>
-                                            <td>4.6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
                                             <td></td>
+                                            <td>60058996</td>
+                                            <td>74157687</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
                                             <td></td>
+                                            <td>62601931</td>
+                                            <td>21387431</td>
+                                            <td>6</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
                                             <td></td>
+                                            <td>39627152</td>
+                                            <td>80414544</td>
+                                            <td>3</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
                                             <td></td>
+                                            <td>70748916</td>
+                                            <td>94001479</td>
+                                            <td>7</td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td></td>
+                                            <td>14136626</td>
+                                            <td>26103930</td>
+                                            <td>1</td>
+                                            <td>2</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -828,6 +805,117 @@
                                 </div>
                             </div>
                             <div class="card-body"></div>
+                        </div>
+                        <div class="card mb-4 topMarg">
+                            <h3 class="mt-2 leftPad">History Cases</h3>
+                            <div
+                                class="card-header d-flex justify-content-between align-items-center"
+                            >
+                                <div>
+                                    <i class="fas fa-table me-1"></i>
+                                    List Group
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="btn-group">
+                                        <button
+                                            type="button"
+                                            class="btn btn-danger dropdown-toggle"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            Danger
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Action</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Another action</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Something else here</a
+                                                >
+                                            </li>
+                                            <li>
+                                                <hr class="dropdown-divider" />
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item"
+                                                    href="#"
+                                                    >Separated link</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Case Number</th>
+                                            <th scope="col">Case Name</th>
+                                            <th scope="col">Account Type</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>John</td>
+                                            <td>Doe</td>
+                                            <td>@social</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <nav aria-label="...">
+                                <ul class="pagination">
+                                    <li class="page-item disabled">
+                                        <span class="page-link">Previous</span>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li
+                                        class="page-item active"
+                                        aria-current="page"
+                                    >
+                                        <span class="page-link">2</span>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
 
