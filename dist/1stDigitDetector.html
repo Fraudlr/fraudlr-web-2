@@ -510,6 +510,7 @@
                                             type: "bar",
                                             data: {
                                                 labels: [
+                                                    "Expected %",
                                                     "1",
                                                     "2",
                                                     "3",
@@ -522,19 +523,35 @@
                                                 ],
                                                 datasets: [
                                                     {
-                                                        label: "Percentage %",
+                                                        label: "Actual Percentage %",
                                                         data: [
-                                                            12, 19, 3, 5, 2, 35,
-                                                            20, 45, 18,
+                                                            5, 30.1, 17.6, 12.5,
+                                                            9.7, 7.9, 7.6, 5.8,
+                                                            5.1, 4.6,
                                                         ],
-                                                        backgroundColor:
-                                                            "#fd4d53", // Bar color
-                                                        borderColor: "#fd4d53", // Border color
-                                                        borderWidth: 1,
+                                                        backgroundColor: [
+                                                            "rgba(54, 162, 235, 0.5)",
+                                                            "#f9e9eb",                                                           
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                            "#f9e9eb",   
+                                                        ],                                                   
                                                     },
                                                 ],
                                             },
                                             options: {
+                                                plugins: {
+                                                    legend: {
+                                                        labels: {
+                                                            color: "#d87b85",
+                                                        },
+                                                    },
+                                                },
                                                 scales: {
                                                     y: {
                                                         beginAtZero: true,
@@ -542,6 +559,11 @@
                                                             stepSize: 5,
                                                         },
                                                         max: 50,
+                                                    },
+                                                    x: {
+                                                        // 🔽 Add this section to control spacing
+                                                        barPercentage: 0.8, // default is 0.9; lower = thinner bars
+                                                        categoryPercentage: 0.8, // default is 0.8; lower = less spacing between bars
                                                     },
                                                 },
                                             },
@@ -955,7 +977,6 @@
                             </div>
                         </div>
                     </div>
-
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
